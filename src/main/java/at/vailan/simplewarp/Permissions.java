@@ -1,0 +1,11 @@
+package at.vailan.simplewarp;
+
+public class Permissions {
+
+    public static final String USE = "simplewarp.use";
+    public static final String SET = "simplewarp.set";
+    public static final String DELETE = "simplewarp.delete";
+
+    private Permissions() {}
+
+}

@@ -1,0 +1,9 @@
+prefix: "§8[§6SimpleWarp§8] "
+messages:
+  no-permission: "§4No permission!"
+  not-enough-arguments: "§cNot enough arguments!"
+  too-many-arguments: "§cToo many arguments!"
+  warp-already-exists: "§cWarp §6'%warp%' §calready exists!"
+  warp-not-existing: "§cWarp §6'%warp%' §cdoes not exist!"
+  warp-successfully-created: "§aWarp §6'%warp%' §asuccessfully created!"
+  warp-successfully-deleted: "§aWarp §6'%warp%' §asuccessfully deleted!"
