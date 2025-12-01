@@ -1,3 +1,6 @@
-# WARP v. 2.6.2-SNAPSHOT for Minecraft 1.20.x
-# Minecraft Spigot Plugin
-# A simple Plugin to create Warp points and Warp signs
+# SIMPLEWARP v. 3.0.0 for Minecraft 1.21.x
+# Minecraft Paper & Spigot/Bukkit Server Plugin
+# A simple plugin that allows players teleportation to configured warp points
+
+© 2025 vailan  
+Licensed under the MIT License
