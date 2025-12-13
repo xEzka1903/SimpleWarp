@@ -2,6 +2,7 @@ package at.vailan.simplewarp.commands;
 
 import at.vailan.simplewarp.Permissions;
 import at.vailan.simplewarp.SimpleWarp;
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
