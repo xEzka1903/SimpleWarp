@@ -42,12 +42,17 @@ public class WarpCommand implements CommandExecutor, TabExecutor {
         if(args.length >= 2) {
             String targetName = args[1];
             Player t = Bukkit.getPlayer(targetName);
-            if (s.hasPermission(Permissions.EXECUTE) && t != null && t.isOnline()) {
-                t.teleport(plugin.getWarpManager().getWarp(warpName));
+            if (s.hasPermission(Permissions.EXECUTE)) {
+                if (t != null && t.isOnline()) {
+                    t.teleport(plugin.getWarpManager().getWarp(warpName));
+                    return true;
+                }
+
                 return true;
             }
 
             s.sendMessage(plugin.getMessage("no-permission"));
+            return true;
         }
 
         if(s instanceof Player p) {
