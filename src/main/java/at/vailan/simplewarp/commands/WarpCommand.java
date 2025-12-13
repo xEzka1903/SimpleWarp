@@ -34,7 +34,7 @@ public class WarpCommand implements CommandExecutor, TabExecutor {
 
         String warpName = args[0].toLowerCase();
         if (!(plugin.getWarpManager().warpExists(warpName))) {
-            p.sendMessage(plugin.getMessage("warp-not-existing", "warp", warpName));
+            s.sendMessage(plugin.getMessage("warp-not-existing", "warp", warpName));
             return true;
         }
 
