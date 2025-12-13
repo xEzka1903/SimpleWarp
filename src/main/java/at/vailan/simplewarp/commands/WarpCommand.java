@@ -27,9 +27,8 @@ public class WarpCommand implements CommandExecutor, TabExecutor {
             return true;
         }
 
-        if (args.length != 1) {
-            p.sendMessage(args.length == 0 ? plugin.getMessage("not-enough-arguments")
-                    : plugin.getMessage("too-many-arguments"));
+        if (args.length < 1) {
+            s.sendMessage(plugin.getMessage("not-enough-arguments"));
             return true;
         }
 
