@@ -21,14 +21,9 @@ public class WarpCommand implements CommandExecutor, TabExecutor {
     }
 
     @Override
-    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-
-        if (!(sender instanceof Player p)) {
-            return true;
-        }
-
-        if (!p.hasPermission(Permissions.USE)) {
-            p.sendMessage(plugin.getMessage("no-permission"));
+    public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
+        if (!s.hasPermission(Permissions.USE)) {
+            s.sendMessage(plugin.getMessage("no-permission"));
             return true;
         }
 
