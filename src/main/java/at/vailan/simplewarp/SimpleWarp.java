@@ -7,7 +7,6 @@ import at.vailan.simplewarp.manager.WarpManager;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
-
 public final class SimpleWarp extends JavaPlugin {
 
     private static SimpleWarp plugin;
@@ -34,6 +33,7 @@ public final class SimpleWarp extends JavaPlugin {
     @Override
     public void onDisable() {
         warpManager.saveWarps();
+
         getLogger().info("Plugin disabled.");
     }
 
@@ -73,9 +73,4 @@ public final class SimpleWarp extends JavaPlugin {
         return getPrefix() + msg;
     }
 
-
-
-
 }
-
-

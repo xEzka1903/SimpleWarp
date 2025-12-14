@@ -1,9 +1,9 @@
 name: SimpleWarp
 main: at.vailan.simplewarp.SimpleWarp
-version: '3.0.0'
+version: '${project.version}'
 api-version: '1.21'
 description: Allows teleportation to previously configured warp points
-author: vailan
+author: '${project.author}'
 
 commands:
   warp:
@@ -32,6 +32,7 @@ permissions:
       simplewarp.use: true
       simplewarp.set: true
       simplewarp.delete: true
+      simplewarp.execute: true
     default: op
 
   simplewarp.admin:
@@ -40,6 +41,7 @@ permissions:
       simplewarp.use: true
       simplewarp.set: true
       simplewarp.delete: true
+      simplewarp.execute: true
     default: op
 
   simplewarp.use:
@@ -52,4 +54,8 @@ permissions:
 
   simplewarp.delete:
     description: Allows deleting warps
+    default: op
+
+  simplewarp.execute:
+    description: Allows teleporting other players to warps
     default: op

@@ -6,10 +6,10 @@
 
     <groupId>at.vailan</groupId>
     <artifactId>simplewarp</artifactId>
-    <version>3.0.0</version>
+    <version>3.1.0</version>
     <packaging>jar</packaging>
 
-    <name>Warp</name>
+    <name>SimpleWarp</name>
 
     <properties>
         <java.version>21</java.version>

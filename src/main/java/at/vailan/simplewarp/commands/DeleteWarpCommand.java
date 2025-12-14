@@ -2,18 +2,14 @@ package at.vailan.simplewarp.commands;
 
 import at.vailan.simplewarp.Permissions;
 import at.vailan.simplewarp.SimpleWarp;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
-import org.bukkit.command.TabExecutor;
+import org.bukkit.command.*;
 import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
-public class DeleteWarpCommand implements CommandExecutor, TabExecutor {
+public class DeleteWarpCommand implements CommandExecutor, TabCompleter {
 
     private final SimpleWarp plugin;
 
@@ -65,4 +61,5 @@ public class DeleteWarpCommand implements CommandExecutor, TabExecutor {
 
         return List.of();
     }
+
 }

@@ -7,3 +7,4 @@ messages:
   warp-not-existing: "§cWarp §6'%warp%' §cdoes not exist!"
   warp-successfully-created: "§aWarp §6'%warp%' §asuccessfully created!"
   warp-successfully-deleted: "§aWarp §6'%warp%' §asuccessfully deleted!"
+  player-not-existing: "§cPlayer §6'%player%' §cis offline or does not exist!"
