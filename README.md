@@ -2,5 +2,5 @@
 # Minecraft Paper & Spigot/Bukkit Server Plugin
 # A simple plugin that allows players teleportation to configured warp points
 
-© 2025 vailan  
+© 2026 vailan  
 Licensed under the MIT License
