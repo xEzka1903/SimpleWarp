@@ -3,4 +3,4 @@
 # A simple plugin that allows players teleportation to configured warp points
 
 © 2026 vailan  
-Licensed under the MIT License
+Licensed under the GNU GENERAL PUBLIC LICENSE
